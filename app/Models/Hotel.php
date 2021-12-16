@@ -15,13 +15,7 @@ class Hotel extends Model
      *
      * @var string[]
      */
-    protected $fillable = [
-        'name',
-        'rating',
-        'address',
-        'supplier',
-        'status'
-    ];
+    protected $fillable = ['name','rating','address','supplier','status'];
 
     /**
      * Get the reviews for the hotel.
