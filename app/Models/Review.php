@@ -13,11 +13,5 @@ class Review extends Model
      *
      * @var string[]
      */
-    protected $fillable = [
-        'title',
-        'hotel_id',
-        'description',
-        'rating',
-        'author',
-    ];
+    protected $fillable = ['title','hotel_id','description','rating','author'];
 }
