@@ -20,7 +20,7 @@ class Hotel extends Model
         'rating',
         'address',
         'supplier',
-        'status',
+        'status'
     ];
 
     /**
